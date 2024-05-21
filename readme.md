@@ -1,3 +1,30 @@
+### project overview
+
+- this is a employee management system which has some features as below:
+  - to login the system, credentials are required
+  - different user has different authority, only the person who belong to
+   'HR department' or 'Director department' can access this system
+  - the person who belong to 'Director department' can check, delete, update, add the employee info,change the password
+  - the person who belong to 'HR department' can check the employee info
+  - at least one person should belong to 'Director department' 
+  
+-test tips
+ -running the project, access the http://localhost:8080/swagger-ui.html 
+  firstly,you can login using Ada as userName, 1234567 as password to check CRUD operation.
+  secondly, you can logout and login using Jay as userName, 1234567 as password to check C operation
+  thirdly, logout again and login using Tom as userName,1234567 as password to check what will happen
+  when the person without appropriate authority access the page
+   
+   
+### my experience in Java
+
+-I have 3 years experience in Java and I started to use Spring Boot from last year
+
+
+
+
+
+
 ### How to use this spring-boot project
 
 - Install packages with `mvn package`
