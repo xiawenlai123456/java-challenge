@@ -1,2 +1,0 @@
-# java-challenge
-java test
